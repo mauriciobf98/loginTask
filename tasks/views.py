@@ -63,3 +63,4 @@ def delete(request, task_id):
             'task': task,
         }
         return render(request, 'tasks/delete.html', params)
+
